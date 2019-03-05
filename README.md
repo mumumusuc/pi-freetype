@@ -2,7 +2,7 @@
 
 在树莓派zero/3B上使用freetype绘制中文。
 
-![fb截图](https://github.com/mumumusuc/pi-freetype/images/fb1.png)
+![fb截图](https://github.com/mumumusuc/pi-freetype/blob/master/images/fb1.png)
 ```
 # cat /dev/fb1 > fb1.raw
 # ffmpeg -vcodec rawvideo -f rawvideo -pix_fmt gray8 -s 256X64 -i fb1.raw -f image2 -vcodec png fb%d.png
